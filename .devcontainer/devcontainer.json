@@ -1,6 +1,6 @@
 {
   "name": "mesh",
-  "image": "turiz/mesh-lsp",
+  "image": "sphinxlightning/mesh-lsp",
   "customizations": {
     "vscode": {
       "settings": {
