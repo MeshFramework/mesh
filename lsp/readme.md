@@ -7,3 +7,9 @@ The Dockerfile in this directory builds LSP binaries for a variety of lanuages. 
 docker run --rm -it --entrypoint "/bin/bash" debian:bookworm
 
 docker run --rm -it --entrypoint "/bin/bash" sphinxlightning/mesh-lsp
+
+### run ast tests
+
+in top level dir of this repo:
+
+docker run --rm -it --entrypoint "/bin/bash" -v .:/root/mesh mesh-lsp
