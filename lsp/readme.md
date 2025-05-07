@@ -18,4 +18,4 @@ docker run --rm -it --entrypoint "/bin/bash" -v .:/root/mesh mesh-lsp
 
 cd /root/mesh
 
-cargo test ruby_test
+cargo test test_ruby
