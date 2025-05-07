@@ -15,3 +15,7 @@ docker buildx build --platform linux/amd64,linux/arm64 -t mesh-lsp -f lsp/Docker
 in top level dir of this repo:
 
 docker run --rm -it --entrypoint "/bin/bash" -v .:/root/mesh mesh-lsp
+
+cd /root/mesh
+
+cargo test ruby_test
