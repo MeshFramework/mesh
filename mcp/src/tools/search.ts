@@ -31,7 +31,7 @@ export const SearchSchema = z.object({
 });
 
 export const SearchTool: Tool = {
-  name: "search",
+  name: "mesh_search",
   description: "Search for exact matches.",
   inputSchema: parseSchema(SearchSchema),
 };

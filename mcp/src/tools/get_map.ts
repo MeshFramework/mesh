@@ -43,7 +43,7 @@ export const GetMapSchema = z.object({
 });
 
 export const GetMapTool: Tool = {
-  name: "get_map",
+  name: "mesh_map",
   description:
     "Generate a visual map/tree of code relationships from a specified node.",
   inputSchema: parseSchema(GetMapSchema),
