@@ -8,7 +8,6 @@ import java.util.Optional;
 
 protected static String appName = "mesh";
 
-
 @RestController
 public class PersonController {
     private final PersonRepository repository;
