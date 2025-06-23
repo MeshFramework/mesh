@@ -33,5 +33,5 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            ghcr.io/stakwork/mesh:standalone-${{ github.ref_name }}
-            ghcr.io/stakwork/mesh:standalone-latest
+            ghcr.io/stakwork/mesh-standalone:${{ github.ref_name }}
+            ghcr.io/stakwork/mesh-standalone:latest
